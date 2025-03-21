@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+/*@import 'tailwindcss';*/
 
 *,
 *::after,
@@ -14,108 +14,138 @@ a{
     text-decoration: none;
 
     &:hover,
-    &:focus{ 
+    &:focus {
         color: inherit;
         text-decoration: none;
     }
 }
+
 ul,
-li{
+li {
     list-style: none;
     margin: 0;
-    padding: 0  ;
+    padding: 0;
     text-indent: 0;
     list-style-type: 0;
 
 }
-button{ 
+
+button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     outline: none;
     font-weight: 400;
 }
-body{
+
+body {
     font-family: "Open Sans", sans-serif;
 }
 
 /*Typography*/
 
-h1{
+h1 {
     font-size: 100px;
     font-family: 'Anton', sans-serif;
     line-height: 1.1;
     font-weight: bold;
 }
-h2{
-    font-size: 100px;
-    font-family: 'Anton', sans-serif;
-    line-height: 1.1;
-    font-weight: bold;
-}
-h3{
+
+h2 {
     font-size: 60px;
     font-family: 'Anton', sans-serif;
     line-height: 1.2;
     font-weight: bold;
 }
-h4{
+
+h3 {
     font-size: 22px;
     font-family: 'Anton', sans-serif;
     line-height: 1.3;
     font-weight: normal;
 }
+
+h4 {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
 p,
-li{
+li {
     font-size: 20px;
     line-height: 1.4;
 }
 
-h1,h2,h3,h4,h5,h6, p {
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
-/*  UTILITY CLASSES */ 
+/*  UTILITY CLASSES */
 
-.m-xs{
+.mt-xs {
     margin-top: 8px;
 }
-.mt-s{
+
+.mt-s {
     margin-top: 16px;
 }
-.mt-m{
-margin-top: 32px;
+
+.mt-m {
+    margin-top: 32px;
 }
-.mt-l{
-margin-top: 64px;
+
+.mt-l {
+    margin-top: 64px;
 }
-.mb-xs{
+
+.mb-xs {
     margin-bottom: 8px;
 }
-.mb-s{ 
+
+.mb-s {
     margin-bottom: 16px;
 }
-.mb-l{
+.mb-m{ 
     margin-bottom: 32px;
+
 }
-.bold{ 
+
+.mb-l {
+    margin-bottom: 64px;
+}
+
+.bold {
     font-weight: 800;
 }
-.semi-bold{
+
+.semi-bold {
     font-weight: 500;
 }
-.italic{
+
+.italic {
     font-style: italic;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.purple{
+
+.purple {
     color: #3233a6;
 }
-.white{
+
+.white {
     color: white
 }
-.light-grey{ 
+
+.light-grey {
     color: #aaa;
 }
