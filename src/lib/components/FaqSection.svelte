@@ -83,9 +83,5 @@
 a{ 
     text-decoration: underline;
 }
-.joesTest{
-    display: flex;
-    flex-direction: row;
-}
 
 </style>
