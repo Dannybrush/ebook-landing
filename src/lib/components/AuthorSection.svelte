@@ -1,5 +1,5 @@
 <script>
-    import authorPic from '$assets/Profile_pic.jpg' 
+    import authorPic from '$assets/profile_pic.jpg' 
 </script>
 <section class="author-section">
     <h2 class="mb-l" > About the Author </h2>   
